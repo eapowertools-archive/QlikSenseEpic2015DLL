@@ -32,7 +32,7 @@ The dll communicates with Epic Hyperspace to take settings from the application 
 1. Download the zip package [QlikSenseEpic2015.zip](https://github.com/eapowertools/QlikSenseEpic2015DLL/releases/download/RC1/QlikSenseEpic2015.zip).
 2. Unzip the file in the location you want the DLL file to reside.
 3. Open a command prompt with administrator privileges and navigate to the folder where the package was unzipped.
-4. In the command window run the batch file by typing in `registerthedll.bat`.  The result of running the command is the command window below.
+4. In the command window run the batch file by typing in `registerthedll.bat`.
 ![CommandPrompt](./img/3.png)
 5. Cut the file `qliksenseepic2015.config` and paste it in the shared file folder location for Epic Hyperspace.
 6. Open the `qliksenseepic2015.config` and set the passphrase (after `key=`) for encrypting userid of the user when transmitting to the Qlik Sense server.
