@@ -20,7 +20,7 @@ namespace QlikSenseEpic2015
     [ProgId("QlikSenseEpic2015.QlikSessionMgr")]
     public class QlikSessionMgr:IBISessionManager
     {
-        private static string KEY_FILENAME =  Path.Combine(getDirectory , "qliksensepic2015.config");
+        private static string KEY_FILENAME =  Path.Combine(getDirectory , "qliksenseepic2015.config");
         private AESEncrypt Encryptor;
         private EBIFoundation82.IBIConfiguration BIConfiguration;
         string QlikServerUrl = "";
