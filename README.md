@@ -1,3 +1,6 @@
+# Status
+[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
+
 # QlikSenseEpic2015DLL
 A dll that works with [QSTicketEpicModule](https://github.com/eapowertools/QSTicketEpicModule) to integrate Qlik Sense authentication with Epic Hyperspace.
 
