@@ -6,14 +6,14 @@ A dll that works with [QSTicketEpicModule](https://github.com/eapowertools/QSTic
 
 The dll communicates with Epic Hyperspace to take settings from the application and make a request for Qlik Sense resources embedded in Epic.  If the user is not authenticated, the dll sends an encrypted token to the [QSTicketEpicModule](https://github.com/eapowertools/QSTicketEpicModule) for authentication to Qlik Sense.
 
-##Requirements
+## Requirements
 - Qlik Sense Enterprise Server 2.2.4 and above
 - Epic Hyperspace 2015 (version 8.2)
 
-##Prerequisites
+## Prerequisites
 - [QSTicketEpicModule](https://github.com/eapowertools/QSTicketEpicModule): This solution implements the authentication scheme Epic will use to complete the handshake between Epic and Qlik Sense.  QSTicketEpicModule is installed on the Qlik Sense server.
 
-##Installation (compiling source)
+## Installation (compiling source)
 1. Download the source by clicking the link above.
 2. Fire up Visual Studio and open the project.
 3. Right click on the QlikSenseEpic2015 project and choose properties.
@@ -31,7 +31,7 @@ The dll communicates with Epic Hyperspace to take settings from the application 
 13. Save the file.  The DLL is now installed and configured.
 14. Restart Epic Hyperspace if it is currently running before attempting to connect to Qlik Sense using the DLL.
 
-##Installation (using release package)
+## Installation (using release package)
 1. Download the zip package [QlikSenseEpic2015.zip](https://github.com/eapowertools/QlikSenseEpic2015DLL/releases/download/RC1/QlikSenseEpic2015.zip).
 2. Unzip the file in the location you want the DLL file to reside.
 3. Open a command prompt with administrator privileges and navigate to the folder where the package was unzipped.
